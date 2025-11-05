@@ -5,6 +5,12 @@ public class Triangle {
 	public Double b;
 	public Double c;
 
+	public Triangle( Double a, Double b, Double c){
+			this.a = a;
+			this.b = b;
+			this.c = c;
+	}
+
 	public double area() {
 		
 		Double p = (a + b + c) / 2;
